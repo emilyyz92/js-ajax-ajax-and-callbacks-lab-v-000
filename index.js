@@ -21,3 +21,7 @@ function displaySearch(response) {
     + '</li>').join() + '</ul>'
   $('#results').html(responseList)
 }
+
+function showCommits() {
+
+}
