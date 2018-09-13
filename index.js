@@ -23,5 +23,5 @@ function displaySearch(response) {
 }
 
 function showCommits() {
-
+  
 }
