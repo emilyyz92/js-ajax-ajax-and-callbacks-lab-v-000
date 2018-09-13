@@ -7,8 +7,8 @@ function searchRepositories() {
     `https://api.github.com/search/repositories?q=${searchTerm}`,
     function(response) {
       let responseList = '<ul'> + response.items.map(item =>
-        '<li>' + item.name + 
-        '- <a onclick="showCommits" src="#">Show Commits</a>' 
+        '<li>' + item.name +
+        '- <a onclick="showCommits" src="#">Search Commits</a>'
         + '</li>').join() + '</ul>'
       $('#results').html(responseList)
       debugger;
