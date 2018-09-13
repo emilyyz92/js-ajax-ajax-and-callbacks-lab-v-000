@@ -20,9 +20,9 @@
   </head>
   <body>
     <main id="main">
-      <form>
+      <form onsubmit="searchRepositories();">
         Search Keyword: <input id="searchTerms" type="text">
-        <input type="submit" onsubmit="searchRepositories();">
+        <input type="submit">
       </form>
       <a src="/#" onclick="searchRepositories();">Search</a>
       <div id="errors"></div>
