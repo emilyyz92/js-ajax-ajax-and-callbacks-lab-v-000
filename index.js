@@ -11,8 +11,10 @@ function searchRepositories() {
         '- <a onclick="showCommits" src="#">Show Commits</a>'
         + '</li>').join() + '</ul>'
       $('#results').html(responseList)
-      debugger;
-  }).fail(displayError())
+
+  }).fail(
+    debugger;
+    displayError())
 }
 
 function displayError() {
